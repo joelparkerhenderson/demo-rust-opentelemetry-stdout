@@ -1,0 +1,13 @@
+[package]
+name = "demo-rust-opentelemetry-stdout"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+opentelemetry = { version = "0.30.0" } # OpenTelemetry observability for traces, metrics, and logs.
+opentelemetry_sdk = { version = "0.30.0" } # OpenTelemetry observability software development kit.
+opentelemetry-stdout = { version = "0.30.0" } # OpenTelemetry observability exporter for standard output.
+opentelemetry-appender-tracing = { version = "0.30.0" } # OpenTelemetry log appender for tracing crate.
+tokio = { version = "~1.45.1", features = ["full"] } # Event-driven, non-blocking I/O platform.
+tracing = { version = "0.1.41" } # Application-level tracing for Rust.
+tracing-subscriber = { version = "0.3.19" } # Utilities for implementing and composing tracing subscribers.
