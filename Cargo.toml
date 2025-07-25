@@ -11,3 +11,6 @@ opentelemetry-appender-tracing = { version = "0.30.0" } # OpenTelemetry log appe
 tokio = { version = "~1.45.1", features = ["full"] } # Event-driven, non-blocking I/O platform.
 tracing = { version = "0.1.41" } # Application-level tracing for Rust.
 tracing-subscriber = { version = "0.3.19" } # Utilities for implementing and composing tracing subscribers.
+
+# These are good additional crates for more capabilities; these are not needed by this demo.
+opentelemetry-semantic-conventions = { version =  "0.30.0" } # OpenTelemetry standardized naming patterns.
